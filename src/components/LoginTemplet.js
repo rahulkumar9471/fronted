@@ -13,7 +13,7 @@ const LoginTemplet = ({title, desc1, desc2, image, formType, setLoggedIn}) => {
                 <span>{desc2}</span>
             </p>
 
-            {formType === 'signup' ?
+            {formType === "signup" ?
             (<SignupForm setLoggedIn={setLoggedIn}/>)
             : 
             (<LoginFrom setLoggedIn={setLoggedIn}/>)
